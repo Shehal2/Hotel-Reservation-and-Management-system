@@ -1,0 +1,267 @@
+body{
+    background: #FFFFFF;
+    position: -webkit-sticky;
+}
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+    position: -webkit-sticky;
+}
+
+.btn.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+h5{
+    margin-left: 50%;
+    color:white;
+}
+.ka{
+    margin-left: 25%;
+    color:white;
+ 
+}
+.h-text-center{
+
+    text-align: center;
+}
+.h-text{
+    margin-bottom:50px ;
+}
+.text-upper{
+    text-transform: uppercase;
+    color: #FEA116;
+}
+.box{
+    margin-top: 40px;
+    max-width: 350px;
+    position: -webkit-sticky;
+    margin-left: 30px; 
+}
+
+.r-1{
+    
+    margin-top: -22%;
+    position: -webkit-sticky;
+}
+ .rate{
+    position:-webkit-sticky;
+    margin-left: 60%;
+    margin-top: 215px;
+    font-size:18px ;  
+    padding-right: 15px;
+    padding-top: 5px;
+    color:rgb(255, 255, 255);
+}
+
+
+.shadow{
+    position: -webkit-sticky;
+    background:#21283b;
+    box-shadow:#21283b;
+    margin-bottom: 80px;
+    max-width: 350px;
+    min-height: 30px;
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posn-f{
+    position: -webkit-sticky;
+backface-visibility: visible;
+color: #000;
+height: 400px;
+}
+.posn-b{
+    position:-webkit-sticky;
+    margin-top: 4%;
+    backface-visibility: visible;
+    margin-left: 10px;
+}
+table tr{
+    
+    position: -webkit-sticky;
+    text-align: justify;
+    
+    color:#FFFFFF;
+}
+tbody{
+    margin-left: -40px;
+}
+
+.img1{
+height:100% ;
+position: -webkit-sticky;
+}
+
+.butn-content{
+
+    margin-bottom: 10px;
+}
+.sim{
+    margin-left: -12%;
+    margin-top: 63%;
+    background-color: #21283b;
+    padding-left: 25px;
+    padding-bottom: 8px;
+    padding-right: 25px;
+    padding-top: 8px;
+    color:white ;
+    width: 11%;
+    height: 5%;
+}
+
+
+
+
+
+/* navibar */
+
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	width: 100%;
+	background-position: center;
+	height: 150px;
+	margin-top: -3%;
+}
+
+header #main-menu {
+	background: whitesmoke;
+	float: left;
+	height: 80px;
+	line-height: 30px;
+	width: 100%;
+	position: fixed;
+}
+.menu-area {
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+	width: 900px;
+}
+
+ul {
+	margin-left: 53%;
+    margin-top: -2%;
+}
+.li {
+	float: left;
+	position: relative;
+	font-size: 16px;
+	list-style: none;
+	margin-left: 0%;
+	padding: 0;
+	width: 140px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.hnn {
+	color: black;
+	text-decoration: none;
+	display: block;
+	line-height: 80px;
+	height: 79px;
+}
+.hnn:hover{
+    color: #000;
+}
+
+.li:hover {
+	background-color: #f0f0f0;
+    border-radius: 10%;
+    color: #000;
+}
+.li:hover span::after {
+	content: '';
+	position: absolute;
+	left: 10%;
+	bottom: 10px;
+	height: 4px; 
+	width: 80%;
+	background-color: rgb(27, 4, 4);  
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    
+}
+
+.submenu-1 {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	margin-left: 21%;
+    margin-top: 0.5%;
+	top: 80px;
+	background: whitesmoke;
+	width: 140px;
+	text-align: center;
+}
+.sub {
+	border: none;
+	border-bottom: 2px solid #ccc;
+	clear: both;
+	padding: 0;
+	width: 140px;
+	height: 60px;
+	font-size: 16px;
+	
+}
+.sub:hover {
+	background-color: #f0f0f0;
+}
+.su:hover span::after {
+	content: '';
+	position: absolute;
+	left: 20%;
+	bottom: 10px;
+	height: 2px; 
+	width: 60%;
+	background-color: rgb(27, 4, 4); 
+	border-radius: 5%; 
+	
+}
+
+.logo {
+	float: left;
+	height: 80px;
+	width: 90px;
+	margin-left: 1%;
+	border-radius: 55%;
+}
+.name {
+	color: #110303;
+	float: left;
+	font-size: 35px;
+	line-height: 70px;
+	margin-right: 20px;
+	padding-left: 4%;
+	font-family: monospace;
+    text-transform: uppercase;
+    font-style: inherit;
+}
